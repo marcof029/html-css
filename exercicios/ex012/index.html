@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos com hteml5</title>
+</head>
+<body>
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <p>Este vídeo está hospedado no meu próprio servidor</p>
+    <!-- <video src="midia/oqueeefeititopiezoeletro.mp4" width="500px" controls></video> -->
+
+    <!-- agora fazendo de modo profissional -->
+     <video controls width="500" height="440" poster="imagens/piezoeletrico.jpg"> 
+        <!--também dá pra colocar os atributos (autoplay e loop)-->
+        <source src="midia/oqueeefeititopiezoeletro.mp4" type="video/mp4">
+        <source src="midia/oqueeefeititopiezoeletro.m4v" type="video/m4v">
+        <source src="midia/oqueeefeititopiezoeletro.webm" type="video/webm">
+        <source src="midia/oqueeefeititopiezoeletro.ogv" type="video/ogv">
+        <p>Seu navegador não tem compatibilidade com reprodução de vídeos</p>
+     </video>
+
+     <h1>inserindo Vídeos do YouTube</h1>
+     <iframe width="560" height="315" src="https://www.youtube.com/embed/jPWsBuiy1rE?si=BxNE0wgd913d3ear" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+     <p>O vimeo é melhor para colocar segurança e restrição em vídeos mas é pago tem litação de uploads mas banda ilimitada para acesso é possivel incorporar vídeos do vimeo de forma semelhante aos do YouTube apenas com opções a mais de configurações</p>
+
+</body>
+</html>
